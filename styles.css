@@ -1,0 +1,84 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+/* Global styles */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-image: url("animal\ zoo.avif");
+    background-repeat:no-repeat;
+    background-position:center;
+    filter: blur(1px);
+    color:black;
+    padding: 10rem;
+    text-align: center;
+    background-color: burlywood;
+}
+
+nav ul {
+    list-style:lower-roman;
+    padding: 500;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color:black;
+    text-decoration:;
+    font-size: 35px;
+}
+a:hover{
+    background-color:yellow;
+    text-shadow: 5px;
+    text-decoration: dotted;
+}
+
+main {
+    padding: 2rem;
+    background-color:aquamarine;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+#about{
+    background-color:deeppink;
+    background-size: auto;
+}
+#animals{
+    background-color: lightsalmon;
+}
+#exhibits{
+    background-color: lightpink;
+}
+#events{
+    background-color:darksalmon;
+}
+#conservation{
+    background-color:cornflowerblue;
+}
+#education{
+    background-color:gold;
+}
+#visit{
+    background-color:hotpink ;
+}
+#contact{
+    background-color:greenyellow;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}

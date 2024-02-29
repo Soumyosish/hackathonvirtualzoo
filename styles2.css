@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(237, 223, 191);
+}
+h1,h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline wavy black;
+}
+img{
+    height: fit-content;
+}
